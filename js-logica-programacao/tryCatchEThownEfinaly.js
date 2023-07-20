@@ -39,9 +39,20 @@ function retornaHora(data) {
   }
 
   return data.toLocaleTimeString("pt-BR", {
-    hour: false
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hora12: false
   });
 }
 
-const hora = retornaHora();
-console.log(hora)
+try {
+  const data = new Date('01-01-1970 12:58:12')
+  const hora = retornaHora(11);
+  console.log(hora)
+  
+} catch (error) {
+  //trata o erro
+}finally {
+  console.log('Tenha um bom dia!')
+}
