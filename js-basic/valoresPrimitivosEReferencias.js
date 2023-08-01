@@ -1,6 +1,6 @@
 /**
  * Primitivos (imutáveis) - string, number, boolean undefined, null (bigint, symbol)
- * ele são copiados quando 'igualamoa' uma variavel a outra, ou seja recebe ex: b = a //copia
+ * ele são copiados quando 'igualamos' uma variavel a outra, ou seja recebe ex: b = a //copia
  * Referência (mutável) - array, object, function = valorese passado por referêcia - aponta para o mesmo valor na memória
  */
 

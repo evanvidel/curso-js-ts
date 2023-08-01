@@ -35,14 +35,14 @@ console.log(resultado);
  */
 
 // funções tem as mesmas regras das variáveis
-/* function saudacao(nome) {
+function saudacao(nome) {
   //corpo da função
   return `Bom dia ${nome}!` // função que retorna valor
 }
 //chamando uma função
 const variavel = saudacao('Luiz');
 console.log(variavel)
- */
+ 
 
 /**
  * è preferivel fazer função pequenas do que fazer uma função muito grande

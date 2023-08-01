@@ -1,4 +1,6 @@
 // String = Text | Number = Número
+const nome = "João";
+
 const primeiroNumero = 5;
 const segundoNumero = 10;
 const resultado = primeiroNumero * segundoNumero;

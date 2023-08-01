@@ -5,6 +5,7 @@ console.log("Em 2000", nome, "conheceu Maria");
 console.log(nome, "casou-se com Maria em 2012.");
 console.log("Maria teve 1 filho com", nome, "em 2015");
 console.log("o filho de", nome, "se cham Eduardo");
+console.log("Aula revisada");
 
 // Não podemos criar variáveis com palavras reservadas
 // Variáveis precisam ter nomes significativos

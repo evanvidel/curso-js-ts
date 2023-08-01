@@ -2,8 +2,8 @@ const alunos = ["Luiz", "Maria", "João"];
 //let alunos = ["Luiz", "Maria", "João"];
 //alunos = 123
 
-console.log(typeof alunos) //objeto
-console.log(alunos instanceof Array) //objeto
+console.log(typeof alunos); //objeto
+console.log(alunos instanceof Array); //objeto
 
 /* alunos.push('Luiza')
 alunos.push('Eduarda')
@@ -16,14 +16,6 @@ console.log(alunos.slice(0, -2))  */
 
 /* delete alunos [1]
 console.log(alunos[1]) */
-
-
-
-
-
-
-
-
 
 /* console.log(alunos.length);
 alunos[alunos.length] = 'Fabio';
