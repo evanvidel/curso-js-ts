@@ -7,8 +7,10 @@
 // Não podemos redeclarar variáveis com let
 // NÃO UTILIZE VAR, UTILIZE LET.
 
+let nomeCliente = 'João'//nome significativo
+
 let nome1;
-console.log(nome1);
+console.log(nome1);//undefined
 
 
 let nome = 'Henrique'
